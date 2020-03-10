@@ -1,4 +1,4 @@
-window.handleItemRequest = () => {
+window.handleItemRequest = (params) => {
   document.body.innerHTML = `
         <header>
           <ul>
@@ -8,7 +8,7 @@ window.handleItemRequest = () => {
           </ul>
         </header>
 
-        <h1>Info for item</h1>
+        <h1>Info for item ${params.id}</h1>
       `
 
   // if any links are added to the dom, use this function
