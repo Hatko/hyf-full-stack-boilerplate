@@ -3,7 +3,7 @@ window.handlePictureRequest = () => {
     <header>
       <ul>
         <a href="/" data-navigo>Home</a>
-        <a href="meals" data-navigo>Meals</a>
+        <a href="list" data-navigo>List</a>
         <a href="picture" data-navigo>Picture</a>
       </ul>
     </header>

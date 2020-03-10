@@ -1,20 +1,14 @@
-const deleteMeal = (id) => {
-}
-
-window.handleMealsRequest = () => {
+window.handleItemRequest = () => {
   document.body.innerHTML = `
         <header>
           <ul>
             <a href="/" data-navigo>Home</a>
-            <a href="meals" data-navigo>Meals</a>
+            <a href="list" data-navigo>List</a>
             <a href="picture" data-navigo>Picture</a>
           </ul>
         </header>
-    
-        <h1>Meals</h1>
-    
-        <ul>
-        </ul>
+
+        <h1>Info for item</h1>
       `
 
   // if any links are added to the dom, use this function
